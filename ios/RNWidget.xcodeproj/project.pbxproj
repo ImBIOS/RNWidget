@@ -10,14 +10,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1CC40DBB2A8F65AC00C0952F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC40DBA2A8F65AC00C0952F /* WidgetKit.framework */; };
-		1CC40DBD2A8F65AC00C0952F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC40DBC2A8F65AC00C0952F /* SwiftUI.framework */; };
-		1CC40DC02A8F65AC00C0952F /* StreakWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC40DBF2A8F65AC00C0952F /* StreakWidgetBundle.swift */; };
-		1CC40DC22A8F65AC00C0952F /* StreakWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC40DC12A8F65AC00C0952F /* StreakWidgetLiveActivity.swift */; };
-		1CC40DC42A8F65AC00C0952F /* StreakWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC40DC32A8F65AC00C0952F /* StreakWidget.swift */; };
-		1CC40DC62A8F65AC00C0952F /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC40DC52A8F65AC00C0952F /* AppIntent.swift */; };
-		1CC40DC82A8F65B000C0952F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC40DC72A8F65B000C0952F /* Assets.xcassets */; };
-		1CC40DCC2A8F65B000C0952F /* StreakWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1CC40DB92A8F65AC00C0952F /* StreakWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C32E9CF2A8F6FB400AC2697 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC40DBA2A8F65AC00C0952F /* WidgetKit.framework */; };
+		1C32E9D02A8F6FB400AC2697 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC40DBC2A8F65AC00C0952F /* SwiftUI.framework */; };
+		1C32E9D32A8F6FB400AC2697 /* StreakWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32E9D22A8F6FB400AC2697 /* StreakWidgetBundle.swift */; };
+		1C32E9D52A8F6FB400AC2697 /* StreakWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32E9D42A8F6FB400AC2697 /* StreakWidgetLiveActivity.swift */; };
+		1C32E9D72A8F6FB400AC2697 /* StreakWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32E9D62A8F6FB400AC2697 /* StreakWidget.swift */; };
+		1C32E9D92A8F6FB400AC2697 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32E9D82A8F6FB400AC2697 /* AppIntent.swift */; };
+		1C32E9DB2A8F6FB800AC2697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C32E9DA2A8F6FB800AC2697 /* Assets.xcassets */; };
+		1C32E9DF2A8F6FB800AC2697 /* StreakWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1C32E9CE2A8F6FB400AC2697 /* StreakWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		83B755B883CA4B3BA94A7715 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262ADBB3AAF4BFF9E671F01 /* noop-file.swift */; };
 		96905EF65AED1B983A6B3ABC /* libPods-RNWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-RNWidget.a */; };
@@ -26,11 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CC40DCA2A8F65B000C0952F /* PBXContainerItemProxy */ = {
+		1C32E9DD2A8F6FB800AC2697 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CC40DB82A8F65AC00C0952F;
+			remoteGlobalIDString = 1C32E9CD2A8F6FB400AC2697;
 			remoteInfo = StreakWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1CC40DCC2A8F65B000C0952F /* StreakWidgetExtension.appex in Embed Foundation Extensions */,
+				1C32E9DF2A8F6FB800AC2697 /* StreakWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,15 +56,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNWidget/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNWidget/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNWidget/main.m; sourceTree = "<group>"; };
-		1CC40DB92A8F65AC00C0952F /* StreakWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StreakWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C32E9CE2A8F6FB400AC2697 /* StreakWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StreakWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C32E9D22A8F6FB400AC2697 /* StreakWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidgetBundle.swift; sourceTree = "<group>"; };
+		1C32E9D42A8F6FB400AC2697 /* StreakWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		1C32E9D62A8F6FB400AC2697 /* StreakWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidget.swift; sourceTree = "<group>"; };
+		1C32E9D82A8F6FB400AC2697 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		1C32E9DA2A8F6FB800AC2697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C32E9DC2A8F6FB800AC2697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C32E9E32A8F6FD500AC2697 /* StreakWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StreakWidgetExtension.entitlements; sourceTree = "<group>"; };
 		1CC40DBA2A8F65AC00C0952F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		1CC40DBC2A8F65AC00C0952F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		1CC40DBF2A8F65AC00C0952F /* StreakWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidgetBundle.swift; sourceTree = "<group>"; };
-		1CC40DC12A8F65AC00C0952F /* StreakWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidgetLiveActivity.swift; sourceTree = "<group>"; };
-		1CC40DC32A8F65AC00C0952F /* StreakWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakWidget.swift; sourceTree = "<group>"; };
-		1CC40DC52A8F65AC00C0952F /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
-		1CC40DC72A8F65B000C0952F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CC40DC92A8F65B000C0952F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-RNWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6262ADBB3AAF4BFF9E671F01 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "RNWidget/noop-file.swift"; sourceTree = "<group>"; };
 		63B87E8EA1DA4CADAED16AD0 /* RNWidget-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "RNWidget-Bridging-Header.h"; path = "RNWidget/RNWidget-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -85,12 +86,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC40DB62A8F65AC00C0952F /* Frameworks */ = {
+		1C32E9CB2A8F6FB400AC2697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC40DBD2A8F65AC00C0952F /* SwiftUI.framework in Frameworks */,
-				1CC40DBB2A8F65AC00C0952F /* WidgetKit.framework in Frameworks */,
+				1C32E9D02A8F6FB400AC2697 /* SwiftUI.framework in Frameworks */,
+				1C32E9CF2A8F6FB400AC2697 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,15 +114,15 @@
 			name = RNWidget;
 			sourceTree = "<group>";
 		};
-		1CC40DBE2A8F65AC00C0952F /* StreakWidget */ = {
+		1C32E9D12A8F6FB400AC2697 /* StreakWidget */ = {
 			isa = PBXGroup;
 			children = (
-				1CC40DBF2A8F65AC00C0952F /* StreakWidgetBundle.swift */,
-				1CC40DC12A8F65AC00C0952F /* StreakWidgetLiveActivity.swift */,
-				1CC40DC32A8F65AC00C0952F /* StreakWidget.swift */,
-				1CC40DC52A8F65AC00C0952F /* AppIntent.swift */,
-				1CC40DC72A8F65B000C0952F /* Assets.xcassets */,
-				1CC40DC92A8F65B000C0952F /* Info.plist */,
+				1C32E9D22A8F6FB400AC2697 /* StreakWidgetBundle.swift */,
+				1C32E9D42A8F6FB400AC2697 /* StreakWidgetLiveActivity.swift */,
+				1C32E9D62A8F6FB400AC2697 /* StreakWidget.swift */,
+				1C32E9D82A8F6FB400AC2697 /* AppIntent.swift */,
+				1C32E9DA2A8F6FB800AC2697 /* Assets.xcassets */,
+				1C32E9DC2A8F6FB800AC2697 /* Info.plist */,
 			);
 			path = StreakWidget;
 			sourceTree = "<group>";
@@ -147,9 +148,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1C32E9E32A8F6FD500AC2697 /* StreakWidgetExtension.entitlements */,
 				13B07FAE1A68108700A75B9A /* RNWidget */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				1CC40DBE2A8F65AC00C0952F /* StreakWidget */,
+				1C32E9D12A8F6FB400AC2697 /* StreakWidget */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
@@ -164,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* RNWidget.app */,
-				1CC40DB92A8F65AC00C0952F /* StreakWidgetExtension.appex */,
+				1C32E9CE2A8F6FB400AC2697 /* StreakWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,20 +226,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				1CC40DCB2A8F65B000C0952F /* PBXTargetDependency */,
+				1C32E9DE2A8F6FB800AC2697 /* PBXTargetDependency */,
 			);
 			name = RNWidget;
 			productName = RNWidget;
 			productReference = 13B07F961A680F5B00A75B9A /* RNWidget.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1CC40DB82A8F65AC00C0952F /* StreakWidgetExtension */ = {
+		1C32E9CD2A8F6FB400AC2697 /* StreakWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC40DD02A8F65B000C0952F /* Build configuration list for PBXNativeTarget "StreakWidgetExtension" */;
+			buildConfigurationList = 1C32E9E02A8F6FB800AC2697 /* Build configuration list for PBXNativeTarget "StreakWidgetExtension" */;
 			buildPhases = (
-				1CC40DB52A8F65AC00C0952F /* Sources */,
-				1CC40DB62A8F65AC00C0952F /* Frameworks */,
-				1CC40DB72A8F65AC00C0952F /* Resources */,
+				1C32E9CA2A8F6FB400AC2697 /* Sources */,
+				1C32E9CB2A8F6FB400AC2697 /* Frameworks */,
+				1C32E9CC2A8F6FB400AC2697 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +247,7 @@
 			);
 			name = StreakWidgetExtension;
 			productName = StreakWidgetExtension;
-			productReference = 1CC40DB92A8F65AC00C0952F /* StreakWidgetExtension.appex */;
+			productReference = 1C32E9CE2A8F6FB400AC2697 /* StreakWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +262,7 @@
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1250;
 					};
-					1CC40DB82A8F65AC00C0952F = {
+					1C32E9CD2A8F6FB400AC2697 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -279,7 +281,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* RNWidget */,
-				1CC40DB82A8F65AC00C0952F /* StreakWidgetExtension */,
+				1C32E9CD2A8F6FB400AC2697 /* StreakWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -295,11 +297,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC40DB72A8F65AC00C0952F /* Resources */ = {
+		1C32E9CC2A8F6FB400AC2697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC40DC82A8F65B000C0952F /* Assets.xcassets in Resources */,
+				1C32E9DB2A8F6FB800AC2697 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,24 +434,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CC40DB52A8F65AC00C0952F /* Sources */ = {
+		1C32E9CA2A8F6FB400AC2697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC40DC22A8F65AC00C0952F /* StreakWidgetLiveActivity.swift in Sources */,
-				1CC40DC62A8F65AC00C0952F /* AppIntent.swift in Sources */,
-				1CC40DC42A8F65AC00C0952F /* StreakWidget.swift in Sources */,
-				1CC40DC02A8F65AC00C0952F /* StreakWidgetBundle.swift in Sources */,
+				1C32E9D52A8F6FB400AC2697 /* StreakWidgetLiveActivity.swift in Sources */,
+				1C32E9D92A8F6FB400AC2697 /* AppIntent.swift in Sources */,
+				1C32E9D72A8F6FB400AC2697 /* StreakWidget.swift in Sources */,
+				1C32E9D32A8F6FB400AC2697 /* StreakWidgetBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CC40DCB2A8F65B000C0952F /* PBXTargetDependency */ = {
+		1C32E9DE2A8F6FB800AC2697 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CC40DB82A8F65AC00C0952F /* StreakWidgetExtension */;
-			targetProxy = 1CC40DCA2A8F65B000C0952F /* PBXContainerItemProxy */;
+			target = 1C32E9CD2A8F6FB400AC2697 /* StreakWidgetExtension */;
+			targetProxy = 1C32E9DD2A8F6FB800AC2697 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -463,6 +465,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RNWidget/RNWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -500,6 +503,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RNWidget/RNWidget.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
 				INFOPLIST_FILE = RNWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,7 +526,7 @@
 			};
 			name = Release;
 		};
-		1CC40DCE2A8F65B000C0952F /* Debug */ = {
+		1C32E9E12A8F6FB800AC2697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -535,9 +539,11 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = StreakWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -554,6 +560,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.imam.rnwidget.StreakWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -565,7 +572,7 @@
 			};
 			name = Debug;
 		};
-		1CC40DCF2A8F65B000C0952F /* Release */ = {
+		1C32E9E22A8F6FB800AC2697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -578,10 +585,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = StreakWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MA98Q3DQ6F;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -597,6 +606,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.imam.rnwidget.StreakWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -738,11 +748,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CC40DD02A8F65B000C0952F /* Build configuration list for PBXNativeTarget "StreakWidgetExtension" */ = {
+		1C32E9E02A8F6FB800AC2697 /* Build configuration list for PBXNativeTarget "StreakWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CC40DCE2A8F65B000C0952F /* Debug */,
-				1CC40DCF2A8F65B000C0952F /* Release */,
+				1C32E9E12A8F6FB800AC2697 /* Debug */,
+				1C32E9E22A8F6FB800AC2697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,7 +1,8 @@
 module.exports = {
-  arrowParens: 'avoid',
-  bracketSameLine: true,
-  bracketSpacing: false,
-  singleQuote: true,
-  trailingComma: 'all',
+  $schema: 'http://json.schemastore.org/prettierrc',
+  semi: true,
+  singleAttributePerLine: true,
+  trailingComma: 'none',
+  tabWidth: 2,
+  singleQuote: false,
 };
