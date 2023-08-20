@@ -1,8 +1,8 @@
 module.exports = {
-  $schema: 'http://json.schemastore.org/prettierrc',
+  $schema: "http://json.schemastore.org/prettierrc",
   semi: true,
   singleAttributePerLine: true,
-  trailingComma: 'none',
+  trailingComma: "none",
   tabWidth: 2,
-  singleQuote: false,
+  singleQuote: false
 };

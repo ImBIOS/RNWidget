@@ -4,10 +4,7 @@
     "slug": "rnwidget",
     "version": "0.1.0",
     "sdkVersion": "49.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "android": {
       "package": "dev.imam.rnwidget"
     },
