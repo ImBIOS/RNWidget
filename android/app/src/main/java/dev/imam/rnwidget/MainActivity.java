@@ -1,4 +1,4 @@
-package com.imbios.rnwidget;
+package dev.imam.rnwidget;
 
 import android.os.Build;
 import android.os.Bundle;

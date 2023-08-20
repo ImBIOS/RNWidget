@@ -1,4 +1,8 @@
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require("path");
+
+/** @type {import("eslint").Linter.Config} */
+const config = {
   env: {
     node: true
   },
@@ -10,14 +14,12 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   root: true,
-  plugins: ["simple-import-sort"],
+  plugins: ["simple-import-sort", "@typescript-eslint"],
   rules: {
     "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-empty-interface": "off",
     "prettier/prettier": ["warn", { usePrettierrc: true }],
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-unused-vars": ["warn"],
     "simple-import-sort/exports": "warn",
     "simple-import-sort/imports": [
       "warn",
@@ -39,6 +41,46 @@ module.exports = {
           ["^.+\\.?(css)$"]
         ]
       }
+    ],
+
+    "@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        prefer: "type-imports",
+        fixStyle: "inline-type-imports"
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { argsIgnorePattern: "^_", destructuredArrayIgnorePattern: "^_" }
+    ],
+    "@typescript-eslint/no-misused-promises": [
+      2,
+      {
+        checksVoidReturn: { attributes: false }
+      }
     ]
+  },
+  overrides: [
+    {
+      extends: [
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+      ],
+      files: ["*.ts", "*.tsx"],
+      parserOptions: {
+        project: path.join(__dirname, "tsconfig.json")
+      },
+      rules: {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ],
+  parserOptions: {
+    project: path.join(__dirname, "tsconfig.json")
+  },
+  globals: {
+    React: "readonly"
   }
 };
+
+module.exports = config;

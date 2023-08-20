@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import {
   Image,
+  type ImageRequireSource,
   NativeModules,
   Platform,
   SafeAreaView,
   StyleSheet,
   Text,
   TextInput,
+  ToastAndroid,
   View
 } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
@@ -18,7 +20,11 @@ import WidgetBridge from "react-native-widget-bridge";
 
 const group = "group.dev.imam.rnwidget.streak";
 
-const SharedStorage = NativeModules.SharedStorage;
+type SharedStorageModule = {
+  set: (value: string) => void;
+};
+
+const SharedStorage = NativeModules.SharedStorage as SharedStorageModule;
 
 const App = () => {
   const [text, setText] = useState("");
@@ -32,37 +38,25 @@ const App = () => {
         // iOS
         await SharedGroupPreferences.setItem("widgetKey", widgetData, group);
         await WidgetBridge.reloadWidget("StreakWidget");
+
+        // Add a Toast on screen.
+        Toast.show("Change value successfully!", {
+          duration: Toast.durations.SHORT,
+          position: Toast.positions.BOTTOM,
+          shadow: true,
+          animation: true,
+          hideOnPress: true,
+          delay: 0
+        });
       } catch (error) {
         console.log({ error });
       }
     } else if (Platform.OS === "android") {
       const value = `${text} days`;
       // Android
-      SharedStorage?.set(JSON.stringify({ text: value }));
-      // ToastAndroid?.show("Change value successfully!", ToastAndroid.SHORT);
+      SharedStorage.set(JSON.stringify({ text: value }));
+      ToastAndroid.show("Change value successfully!", ToastAndroid.SHORT);
     }
-
-    // Add a Toast on screen.
-    Toast.show("Change value successfully!", {
-      duration: Toast.durations.SHORT,
-      position: Toast.positions.BOTTOM,
-      shadow: true,
-      animation: true,
-      hideOnPress: true,
-      delay: 0,
-      onShow: () => {
-        // calls on toast\`s appear animation start
-      },
-      onShown: () => {
-        // calls on toast\`s appear animation end.
-      },
-      onHide: () => {
-        // calls on toast\`s hide animation start.
-      },
-      onHidden: () => {
-        // calls on toast\`s hide animation end.
-      }
-    });
   };
 
   return (
@@ -84,7 +78,7 @@ const App = () => {
                 </View>
                 <View style={styles.thoughtPointer}></View>
                 <Image
-                  source={require("./assets/bea.png")}
+                  source={require("./assets/bea.png") as ImageRequireSource}
                   style={styles.avatarImg}
                 />
               </View>

@@ -1,32 +1,18 @@
 {
   "expo": {
-    "name": "RNWidget",
-    "slug": "RNWidget",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
+    "name": "rnwidget",
+    "slug": "rnwidget",
+    "version": "0.1.0",
+    "sdkVersion": "49.0.0",
+    "platforms": [
+      "ios",
+      "android"
     ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "dev.imam.rnwidget"
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.imbios.rnwidget"
+      "package": "dev.imam.rnwidget"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": {
+      "bundleIdentifier": "dev.imam.rnwidget"
     }
   }
 }
