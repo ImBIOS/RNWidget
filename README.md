@@ -52,7 +52,7 @@ bun run start # expo start
 
 This will open a new window in your default browser displaying a QR code. Scan this code using the Expo Go app on your mobile device or use an emulator.
 
-## Creating the Widget
+<!-- ## Creating the Widget
 
 This section provides a step-by-step guide on creating a simple widget using Expo and React Native:
 
@@ -84,7 +84,7 @@ It's vital to test your widget on both Android and iOS platforms to ensure compa
 
 2. **Testing on iOS**
 
-... [Steps Here]
+... [Steps Here] -->
 
 ## Resources
 
